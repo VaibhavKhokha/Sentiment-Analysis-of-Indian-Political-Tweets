@@ -1,3 +1,4 @@
+
 # Sentiment Analysis of Indian Political Tweets
 
 ## Overview
@@ -37,3 +38,7 @@ pip install transformers pandas numpy matplotlib seaborn wordcloud scikit-learn 
 
 ## Author
 Project developed by Vaibhav Khokha
+=======
+# Sentiment-Analysis-of-Indian-Political-Tweets
+BERT-based Sentiment Analysis & Topic Modeling on Indian Political Tweets with Flask Dashboard
+
