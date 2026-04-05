@@ -1,0 +1,38 @@
+{
+  "dataset": {
+    "name": "Indian Political Tweets Sentiment Analysis",
+    "source": "Kaggle",
+    "total_tweets": 162980,
+    "working_sample": 20000
+  },
+  "model": {
+    "name": "BERT (bertweet-base-sentiment-analysis)",
+    "accuracy": 46.25,
+    "gpu_used": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "processing_time_minutes": 8.59
+  },
+  "sentiment_distribution_actual": {
+    "positive": 8841,
+    "neutral": 6749,
+    "negative": 4410
+  },
+  "sentiment_distribution_predicted": {
+    "positive": 3138,
+    "neutral": 9784,
+    "negative": 7078
+  },
+  "party_wise": {
+    "bjp": {
+      "tweets": 18281,
+      "positive_pct": 15.9,
+      "neutral_pct": 48.5,
+      "negative_pct": 35.6
+    },
+    "inc": {
+      "tweets": 2999,
+      "positive_pct": 9.5,
+      "neutral_pct": 49.5,
+      "negative_pct": 40.9
+    }
+  }
+}

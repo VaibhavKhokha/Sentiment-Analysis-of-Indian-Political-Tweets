@@ -1,0 +1,66 @@
+PROJECT REPORT: Sentiment Analysis of Indian Political Tweets
+================================================================
+
+DATASET INFORMATION
+-------------------
+- Dataset Name: Indian Political Tweets Sentiment Analysis
+- Source: Kaggle (saurabhshahane/twitter-sentiment-dataset)
+- Total Tweets: 162980
+- Working Sample: 20000
+- Columns: clean_text, category
+
+SENTIMENT LABELS
+----------------
+- Positive (1): 8841 tweets
+- Neutral (0): 6749 tweets
+- Negative (-1): 4410 tweets
+
+MODEL INFORMATION
+-----------------
+- Model: BERT (finiteautomata/bertweet-base-sentiment-analysis)
+- Architecture: RoBERTa-based Transformer
+- Input Length: 128 tokens
+- Device: GPU (NVIDIA GeForce RTX 4050 Laptop GPU)
+- Processing Speed: ~0.026 sec/tweet
+- Total Processing Time: ~8.6 minutes for 20,000 tweets
+
+MODEL PERFORMANCE
+-----------------
+- Overall Accuracy: 46.25%
+- Positive Class Precision: 0.74, Recall: 0.26, F1: 0.39
+- Neutral Class Precision: 0.43, Recall: 0.63, F1: 0.51
+- Negative Class Precision: 0.38, Recall: 0.61, F1: 0.47
+
+PARTY-WISE ANALYSIS
+-------------------
+BJP-Related Tweets: 18281
+- Positive: 15.9%, Neutral: 48.5%, Negative: 35.6%
+
+INC-Related Tweets: 2999
+- Positive: 9.5%, Neutral: 49.5%, Negative: 40.9%
+
+MODEL COMPARISON (500 tweets sample)
+------------------------------------
+BERT Predictions: Positive=76, Neutral=235, Negative=189
+VADER Predictions: Positive=235, Neutral=99, Negative=166
+
+KEY INSIGHTS
+------------
+1. The BERT model was trained on English tweets (mostly US politics)
+   and struggles with Indian political tweets due to linguistic differences.
+2. The model tends to classify most tweets as "Neutral", showing
+   a bias towards the majority class.
+3. VADER, being rule-based, is more optimistic and classifies
+   more tweets as positive compared to BERT.
+4. BJP-related tweets show higher positive sentiment than INC tweets.
+5. Both parties have significant negative sentiment, reflecting
+   the polarized nature of Indian political discourse on Twitter.
+
+CONCLUSION
+----------
+While the pretrained BERT model achieves moderate accuracy (~46%),
+it demonstrates the potential of deep learning for sentiment analysis.
+Fine-tuning the model on Indian political tweets specifically would
+significantly improve performance. The comparative analysis with VADER
+provides valuable insights into the strengths and limitations of
+different sentiment analysis approaches.

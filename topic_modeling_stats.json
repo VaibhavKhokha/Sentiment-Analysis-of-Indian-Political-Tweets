@@ -1,0 +1,44 @@
+{
+  "lda_topics": {
+    "topic_1": "Government work, development, good work",
+    "topic_2": "Congress, money, jobs, poverty, rahul",
+    "topic_3": "India, nation, space mission, satellite",
+    "topic_4": "Gandhi, Nehru, historical references",
+    "topic_5": "Voting, elections, anti-national discourse"
+  },
+  "topic_distribution": {
+    "topic_1": 4613,
+    "topic_2": 3307,
+    "topic_3": 3230,
+    "topic_4": 4558,
+    "topic_5": 4292
+  },
+  "sentiment_by_topic": {
+    "topic_1": {
+      "positive": 13.6,
+      "neutral": 51.4,
+      "negative": 34.9
+    },
+    "topic_2": {
+      "positive": 8.1,
+      "neutral": 52.7,
+      "negative": 39.2
+    },
+    "topic_3": {
+      "positive": 33.7,
+      "neutral": 49.3,
+      "negative": 17.0
+    },
+    "topic_4": {
+      "positive": 9.3,
+      "neutral": 46.2,
+      "negative": 44.5
+    },
+    "topic_5": {
+      "positive": 17.0,
+      "neutral": 45.9,
+      "negative": 37.1
+    }
+  },
+  "key_insight": "Topic 3 (India, nation, space) has highest positive sentiment (33.7%), while Topic 4 (historical) has highest negative (44.5%)"
+}
