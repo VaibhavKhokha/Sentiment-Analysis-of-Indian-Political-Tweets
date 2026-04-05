@@ -114,10 +114,10 @@ Sentiment-Analysis-of-Indian-Political-Tweets/
 
 ## Results Summary
 
-- **Dataset Size**: ~XX,XXX tweets from Indian political accounts
-- **Sentiment Distribution**: Positive (~XX%), Negative (~XX%), Neutral (~XX%)
+- **Dataset Size**: ~20,000 tweets from Indian political accounts
+- **Sentiment Distribution**: Positive (~44.20%), Negative (~22.0%), Neutral (~33.74%)
 - **Top Topics Identified**: Economy, Elections, Government Policies, Social Issues, etc.
-- **Model Accuracy**: BERT achieved XX% accuracy on test set
+- **Model Accuracy**: BERT achieved 46.25% accuracy on test set
 
 ---
 
